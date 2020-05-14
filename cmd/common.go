@@ -279,6 +279,10 @@ func GetClient(ctx *cli.Context) (*cliclient.MasterClient, error) {
 	return mc, nil
 }
 
+func GetServer(ctx *cli.Context) (*config.ServerConfig, error) {
+	return lookupConfig(ctx)
+}
+
 // GetResourceType maps an incoming resource type to a valid one from the schema
 func GetResourceType(c *cliclient.MasterClient, resource string) (string, error) {
 	if c.ManagementClient != nil {

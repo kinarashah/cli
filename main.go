@@ -101,6 +101,8 @@ func mainErr() error {
 		cmd.SSHCommand(),
 		cmd.UpCommand(),
 		cmd.WaitCommand(),
+		cmd.CredentialCommand(),
+		//cmd.TestCommand(),
 	}
 
 	for _, com := range app.Commands {
