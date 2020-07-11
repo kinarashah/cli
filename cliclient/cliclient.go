@@ -102,6 +102,7 @@ func (mc *MasterClient) newManagementClient() error {
 	// Setup the management client
 	mClient, err := managementClient.NewClient(options)
 	if err != nil {
+		logrus.Infof("returning err from here %v", err)
 		return err
 	}
 	mc.ManagementClient = mClient

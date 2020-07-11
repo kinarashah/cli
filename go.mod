@@ -13,14 +13,19 @@ require (
 	github.com/hashicorp/go-version v1.1.0
 	github.com/mattn/go-tty v0.0.0-20180219170247-931426f7535a // indirect
 	github.com/patrickmn/go-cache v2.0.0+incompatible
+	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/pkg/errors v0.8.1
 	github.com/pkg/term v0.0.0-20160705081919-b1f72af2d630 // indirect
 	github.com/rancher/norman v0.0.0-20200326201949-eb806263e8ad
+	github.com/rancher/rancher v2.2.12+incompatible
 	github.com/rancher/types v0.0.0-20200407154953-bd140b76a4df
 	github.com/sirupsen/logrus v1.4.2
 	github.com/stretchr/testify v1.4.0
 	github.com/urfave/cli v1.20.0
+	golang.org/x/crypto v0.0.0-20200220183623-bac4c82f6975
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
 	gopkg.in/yaml.v2 v2.2.8
+	k8s.io/apimachinery v0.18.0
+	k8s.io/client-go v12.0.0+incompatible
 )

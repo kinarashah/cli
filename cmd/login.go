@@ -113,6 +113,7 @@ func loginSetup(ctx *cli.Context) error {
 
 	}
 
+	logrus.Infof("reached here......")
 	c, err := cliclient.NewManagementClient(serverConfig)
 	if err != nil {
 		if _, ok := err.(*url.Error); ok && strings.Contains(err.Error(), "certificate signed by unknown authority") {
